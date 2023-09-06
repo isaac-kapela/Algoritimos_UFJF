@@ -3,36 +3,42 @@
 #include <iomanip>
 using namespace std;
 
-int  boletin(int nota1, int nota2, int nota3)
+void boletin()
 {
+    float nota1, nota2, nota3;
+    float media;
+
+    int lerMatricula;
+    cin >> lerMatricula;
+    cout << lerMatricula;
 
     cin >> nota1 >> nota2 >> nota3;
-    //int lerMatricua;
-    int media;
-    media = nota1 + nota2 + nota3 / 3;
+    media = (nota1 + nota2 + nota3) / 3;
 
     if (media >= 7)
     {
-        cout << "Aprovado";
+        cout << " Aprovado";
 
-        return media;
+        //  return media;
     }
     else if (media <= 5)
     {
-        cout << "reprovado";
-        return media;
+        cout << " Reprovado";
+        //  return media;
     }
     else
     {
-        cout << "Recuperacao";
+        cout << " Recuperacao";
+
+        //   return media;
     }
 }
 int main()
 {
-    
-    int nota1, nota2, nota3;
-     boletin(nota1, nota2, nota3);
+    // int resultado;
+    boletin();
 
+    //   boletin(nota1, nota2, nota3);
 
     return 0;
 }
