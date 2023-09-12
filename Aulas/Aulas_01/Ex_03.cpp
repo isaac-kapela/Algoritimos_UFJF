@@ -17,7 +17,7 @@ void calculo()
 
     cout << " Digite o seu salario: " ;
     cin >> salarioHora;
-     salario = horasTrabalho * salarioHora 
+     salario = horasTrabalho * salarioHora ;
    cout << "NUMBER " = numerofun <<  " \n SALARY" = salario;
 
 }
