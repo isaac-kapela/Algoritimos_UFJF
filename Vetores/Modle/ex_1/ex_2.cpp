@@ -6,7 +6,6 @@ int main() {
 
     // Leitura dos valores do vetor
     for (int i = 0; i < tamanho; i++) {
-        std::cout << "Digite o elemento " << i + 1 << ": ";
         std::cin >> vetor[i];
     }
 
@@ -18,7 +17,6 @@ int main() {
     }
 
     // Impressão do vetor modificado
-    std::cout << "Vetor modificado:" << std::endl;
     for (int i = 0; i < tamanho; i++) {
         std::cout << vetor[i] << std::endl;
     }
