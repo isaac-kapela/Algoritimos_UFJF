@@ -1,5 +1,8 @@
+// programa que clacula media
+
 #include <iostream>
 #include <iomanip>
+using namespace std;
 
 int main() {
     const int tamanho = 12;
@@ -9,7 +12,7 @@ int main() {
 
     // Leitura dos valores do vetor
     for (int i = 0; i < tamanho; i++) {
-        std::cin >> vetor[i];
+        cin >> vetor[i];
 
         if (vetor[i] > 0) {
             soma += vetor[i];
@@ -20,9 +23,9 @@ int main() {
     // Cálculo e impressão da média dos valores positivos com 2 casas decimais
     if (count > 0) {
         double media = soma / count;
-        std::cout << "Media dos elementos positivos: " << std::fixed << std::setprecision(1) << media << std::endl;
+        cout << "Media dos elementos positivos: " << fixed << setprecision(1) << media << endl;
     } else {
-        std::cout << "Media dos elementos positivos: " << std::fixed << std::setprecision(1) << "0.00" << std::endl;
+        cout << "Media dos elementos positivos: " << fixed << setprecision(1) << "0.00" << endl;
     }
 
     return 0;

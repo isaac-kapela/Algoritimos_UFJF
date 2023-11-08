@@ -1,4 +1,7 @@
+
 #include <iostream>
+#include <iomanip>
+using namespace std;
 
 int main() {
     const int tamanho = 7;
@@ -6,7 +9,7 @@ int main() {
 
     // Leitura dos valores do vetor
     for (int i = 0; i < tamanho; i++) {
-        std::cin >> vetor[i];
+        cin >> vetor[i];
     }
 
     // Substituição dos múltiplos de 3 por 0
@@ -18,7 +21,7 @@ int main() {
 
     // Impressão do vetor modificado
     for (int i = 0; i < tamanho; i++) {
-        std::cout << vetor[i] << std::endl;
+        cout << vetor[i] << endl;
     }
 
     return 0;

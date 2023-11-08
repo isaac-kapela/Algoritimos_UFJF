@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/dizol/OneDrive/Área de Trabalho/Algoritimos_UFJF/Vetores/Modle/ex_2",
+      "program": "c:/Users/dizol/OneDrive/Área de Trabalho/Algoritimos_UFJF/Vetores/Modle/ex_2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
