@@ -14,6 +14,6 @@ int mmain(){
         soma= soma + contador;
         contador++;
      }
-     cout << "A soma dos numeros de 0 ate" << numero << "= " << soma << endl;
+     cout << "A soma dos numeros de 0 ate" << numero << "=" << soma << endl;
      
 }

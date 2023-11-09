@@ -5,12 +5,11 @@
 
 using namespace std;
 
-int main() {
+int main(){
     int vetor[5];
 
     // Lê os elementos do vetor
     for (int i = 0; i < 5; i++) {
-        //cout  << i + 1 ;
         cin >> vetor[i];
     }
 
@@ -25,6 +24,5 @@ int main() {
     }
      cout<< "Menor elemento: "<< menor<<","<<" indice: "<< index;
      
-
     return 0;
 }

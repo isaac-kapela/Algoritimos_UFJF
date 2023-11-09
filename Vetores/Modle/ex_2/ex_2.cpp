@@ -16,7 +16,6 @@ int inteiro(int vetor[10]){
  media = soma / 10;
 }
 
-
  int vetor2(int vet[10], float r) {
     int numerosMaoir = 0;
 
@@ -27,6 +26,7 @@ int inteiro(int vetor[10]){
     }
     return numerosMaoir;
  }
+ 
 
 int main(){
     int vetor[10];
