@@ -16,11 +16,6 @@ int main(){
         }
     }
 
-    for(int i =0; i < 2; i++){
-        vetor3[(i*2)] = vetor1[i];
-        vetor3[(i*2)] = vetor2[i];
-    }
-
     for(int i =0; i < 4; i++){
         cout << vetor3[i];
     }
