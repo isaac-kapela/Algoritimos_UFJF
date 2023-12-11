@@ -3,7 +3,7 @@
 using namespace std;
 
 int main (){
-    int [5];
-    char [5];
+    int a [5];
+    char b [5];
     return 0;
 }
