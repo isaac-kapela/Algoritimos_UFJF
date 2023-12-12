@@ -1,54 +1,56 @@
 #include <iostream>
-#include <iomanip>
-using namespace std;
+#include <vector>
+#include <string>
 
+// Estrutura para representar os dados
 struct Pessoa {
-    char nome[50];
-   char  endereco[50];
-    char numero[50];
-    char bairro[50];
-    char complemento[50];
-    char cep[50];
-    char cidade[50];
-    char  uf[50];
-    char  tel1[50];
-    char tel2[50];
+    std::string nome;
+    std::string endereco;
+    std::string numero;
+    std::string bairro;
+    std::string complemento;
+    std::string cep;
+    std::string cidade;
+    std::string uf;
+    std::string tel1;
+    std::string tel2;
 };
 
-void ler(Pessoa p1) {
-
-    cin >> p1.nome;
-    cin >> p1.endereco;
-    cin >> p1.numero;
-    cin >> p1.bairro;
-    cin >> p1.complemento;
-    cin >> p1.cep;
-    cin >> p1.cidade;
-    cin >> p1.uf;
-    cin >> p1.tel1; 
-    cin >> p1.tel2;
-
-cout << p1.nome << endl;    
-cout << p1.endereco << endl;    
-cout << p1.numero << endl;  
-cout << p1.bairro << endl;
-cout << p1.complemento << endl; 
-cout    << p1.cep << endl;
-cout << p1.cidade << endl;
-cout << p1.uf << endl;
-cout << p1.tel1 << endl;
-cout << p1.tel2 << endl;
-
-
-}
-
 int main() {
-    Pessoa p1, p2 , p3;
+    // Vetor para armazenar os dados das pessoas
+    std::vector<Pessoa> pessoas;
 
-    ler(p1);    
-    ler(p2);
-    ler(p3);
-    
+    // Loop para preencher os dados da estrutura
+    for (int i = 0; i < 3; ++i) { // Modificado para 3 entradas conforme o exemplo
+        Pessoa pessoa;
+        std::getline(std::cin >> std::ws, pessoa.nome);
+        std::getline(std::cin >> std::ws, pessoa.endereco);
+        std::getline(std::cin >> std::ws, pessoa.numero);
+        std::getline(std::cin >> std::ws, pessoa.bairro);
+        std::getline(std::cin >> std::ws, pessoa.complemento);
+        std::getline(std::cin >> std::ws, pessoa.cep);
+        std::getline(std::cin >> std::ws, pessoa.cidade);
+        std::getline(std::cin >> std::ws, pessoa.uf);
+        std::getline(std::cin >> std::ws, pessoa.tel1);
+        std::getline(std::cin >> std::ws, pessoa.tel2);
+
+        // Adiciona a pessoa ao vetor
+        pessoas.push_back(pessoa);
+    }
+
+    // Loop para imprimir os dados
+    for (const auto& pessoa : pessoas) {
+        std::cout << pessoa.nome << std::endl;
+        std::cout << pessoa.endereco << std::endl;
+        std::cout << pessoa.numero << std::endl;
+        std::cout << pessoa.bairro << std::endl;
+        std::cout << pessoa.complemento << std::endl;
+        std::cout << pessoa.cep << std::endl;
+        std::cout << pessoa.cidade << std::endl;
+        std::cout << pessoa.uf << std::endl;
+        std::cout << pessoa.tel1 << std::endl;
+        std::cout << pessoa.tel2 << std::endl;
+    }
 
     return 0;
 }
