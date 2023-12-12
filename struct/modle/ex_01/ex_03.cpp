@@ -1,44 +1,42 @@
-#include <iostream>
-#include <cmath>
-#include <iomanip>
-using namespace std;
+#include <stdio.h>
+#include <math.h>
 
-// Definição da estrutura Ponto
+// Estrutura para armazenar um ponto com coordenadas x e y
 struct Ponto {
     double x;
     double y;
 };
 
-
-double calcularDistancia(const Ponto& ponto1, const Ponto& ponto2) {
+// Função para calcular a distância entre dois pontos
+double calcularDistancia(struct Ponto ponto1, struct Ponto ponto2) {
     return sqrt(pow(ponto2.x - ponto1.x, 2) + pow(ponto2.y - ponto1.y, 2));
 }
 
 int main() {
-    const int N = 10; 
-
-    
-    Ponto pontos[N];
+    // Vetor para armazenar os 10 pontos
+    struct Ponto pontos[10];
 
     // Leitura dos dados dos pontos
-    for (int i = 0; i < N; ++i) {
-        cout << "Digite as coordenadas do ponto " << i + 1 << " (x y): ";
-        cin >> pontos[i].x >> pontos[i].y;
+    for (int i = 0; i < 10; i++) {
+        scanf("%lf %lf", &pontos[i].x, &pontos[i].y);
     }
 
-    
+    // Inicializa a maior distância como zero
     double maiorDistancia = 0.0;
-    for (int i = 0; i < N - 1; ++i) {
-        for (int j = i + 1; j < N; ++j) {
+
+    // Calcula a distância entre todos os pares de pontos
+    for (int i = 0; i < 10; i++) {
+        for (int j = i + 1; j < 10; j++) {
             double distancia = calcularDistancia(pontos[i], pontos[j]);
+            // Atualiza a maior distância se necessário
             if (distancia > maiorDistancia) {
                 maiorDistancia = distancia;
             }
         }
     }
 
-    
-    cout << "A maior distância entre os pontos é: " << fixed << setprecision(2) << sqrt(maiorDistancia) << endl;
+    // Imprime a maior distância com duas casas decimais
+    printf("%.2lf\n", maiorDistancia);
 
     return 0;
 }
