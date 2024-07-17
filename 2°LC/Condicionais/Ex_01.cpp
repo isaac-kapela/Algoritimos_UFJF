@@ -25,7 +25,7 @@ using namespace std;
             cout << "Sábado!";
         }
         else{
-            cout << "Dia da semana inválido!";
+              << "Dia da semana inválido!";
         }
             return ;
     }
