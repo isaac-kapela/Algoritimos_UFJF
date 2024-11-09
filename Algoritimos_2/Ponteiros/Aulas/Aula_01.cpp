@@ -2,17 +2,38 @@
 
 using namespace std;
 
-int main() {
+void func(int a, int b)
+{
+    cout << a + b << endl;
+}
 
-    int var1;
+int main()
+{
+    int jota = 1;
+    int jota2 = 3;
+    int *b;
+    int *a;
 
-    int *pont1;
-    var1 = 10;
+    a = &jota;
+    *a = 2;
 
-    pont1 = &var1;
-    *pont1 = 60;
+    b = &jota2;
+    *b = 7;
 
-    cout << var1 << endl;
-    cout << *pont1;
+    func(*a, *b);
+
+    //     int var1;
+
+    //     int *pont1;
+
+    //     int m;
+    //     var1 = 10;
+
+    //     pont1 = &var1;
+    //     *pont1 = 60;
+
+    //     cout << var1 << endl;
+    //    m = *pont1 *  *pont1;
+    //     cout << m << endl;
     return 0;
 }
