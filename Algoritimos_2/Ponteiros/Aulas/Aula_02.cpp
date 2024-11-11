@@ -16,3 +16,5 @@ int main() {
     cout << *pont1;
     return 0;
 }
+
+///llllllllllllllll
