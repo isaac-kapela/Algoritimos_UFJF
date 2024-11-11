@@ -16,7 +16,7 @@ int main()
 
  
 
-    cout << pti;
+    cout << *pti;
     
     return 0;
 }
