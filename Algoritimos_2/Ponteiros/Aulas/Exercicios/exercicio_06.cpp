@@ -14,7 +14,7 @@ bool func(int tam, int vet[], int *par, int *impar, int *negativos)
             *impar = *impar + 1;
         }
 
-       else if (vet[i] < 0)
+        else if (vet[i] < 0)
         {
             *negativos = *negativos + 1;
 
@@ -25,8 +25,6 @@ bool func(int tam, int vet[], int *par, int *impar, int *negativos)
         {
             return false;
         }
-
-        
     }
 }
 int main()
@@ -48,7 +46,6 @@ int main()
     cout << "Pares: " << par << endl;
     cout << "Impares: " << impar << endl;
     cout << "Negativos: " << negativos << endl;
-    
 
     return 0;
 }
