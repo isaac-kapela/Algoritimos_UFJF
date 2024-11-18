@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730742990 source:/home/ice/Downloads/PrimeiraAula/main.cpp
+	<iostream>
+	<string>
+
