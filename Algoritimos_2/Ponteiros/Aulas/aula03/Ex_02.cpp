@@ -4,12 +4,12 @@
 using namespace std;
 int* indicesPares(int vet[], int n){
         int *vet2 = new int[n/2]
-        for(int i =0; i < n; i+2){
-            vet2[i] = vet[i];
+        for(int i =0, j=0; i < n, j<n; i=i+2, j++){
+            vet2[j] = vet[i];
 
         }
 
-        return *vet2;
+        return vet2;
     }
 
 
@@ -21,13 +21,16 @@ int main(){
     for(int i =0; i < n; i++){
         cin>> vet[i];
     }
-    indicesPares(vet,n);
+   
+
+    int *vet2 =  indicesPares(vet,n);
 
     for(int i =0; i <n; i++){
-        cout<< vet[i];
+        cout<< vet2[i];
     }
 
-delete [] vet;
+    delete [] vet;
+    delete[] vet2;
 
  
 
