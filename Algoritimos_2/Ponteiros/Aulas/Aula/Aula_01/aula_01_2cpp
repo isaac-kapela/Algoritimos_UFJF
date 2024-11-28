@@ -1,0 +1,24 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int updates = 6;
+    int *p_updates;
+    p_updates = &updates;
+    // imprime valores
+    cout << "Valor: updates = " << updates;
+    cout << ", *p_updates = " << *p_updates;
+    cout << endl;
+    // imprime enderecos
+    cout << "Endereco: &updates = " << &updates;
+    cout << ", p_updates = " << p_updates << endl;
+    // usa ponteiro para alterar o conteudo
+    *p_updates = *p_updates + 1;
+    cout << "Valor atualizado: updates = ";
+    cout << updates << endl;
+
+    return 0;
+}
