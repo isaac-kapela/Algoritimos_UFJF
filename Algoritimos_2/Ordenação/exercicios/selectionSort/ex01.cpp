@@ -17,11 +17,10 @@ int main(){
         for(int j =i+1; j < n; j++){
             if(vet[j] < vet[menor]){
                 menor = j;
-                aux = vet[i];
+            }
+            aux = vet[i];
                 vet[i] = vet[menor];
                 vet[menor] = aux;
-                
-            }
         }
     }
 
