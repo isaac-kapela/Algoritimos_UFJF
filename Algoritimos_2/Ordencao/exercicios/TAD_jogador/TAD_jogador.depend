@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1738432019 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_jogador\main.cpp
+	<iostream>
+	"Jogador.h"
+
+1738430674 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_jogador\jogador.h
+	<string>
+
+1738432096 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_jogador\jogador.cpp
+	<string>
+	"Jogador.h"
+	<iostream>
+

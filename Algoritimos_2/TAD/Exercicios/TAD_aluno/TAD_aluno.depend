@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1738428423 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_aluno\main.cpp
+	<iostream>
+	"Aluno.h"
+	<string>
+
+1738428667 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_aluno\aluno.cpp
+	"Aluno.h"
+	<iostream>
+	<string>
+	"Aluno.h"
+
+1738428266 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tad_aluno\aluno.h
+	<string>
+
