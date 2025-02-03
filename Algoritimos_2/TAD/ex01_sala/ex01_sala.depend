@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1738608370 source:/home/ice/Downloads/Algoritimos_UFJF/Algoritimos_2/TAD/ex01_sala/main.cpp
+	<iostream>
+	"Aluno.h"
+
+1738608463 /home/ice/Downloads/Algoritimos_UFJF/Algoritimos_2/TAD/ex01_sala/Aluno.h
+
+1738606601 source:/home/ice/Downloads/Algoritimos_UFJF/Algoritimos_2/TAD/ex01_sala/aluno.cpp
+	<iostream>
+	"Aluno.h"
+
