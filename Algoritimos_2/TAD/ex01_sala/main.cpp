@@ -1,21 +1,23 @@
-#include <iostream>
-#include "Aluno.h"
+#include "Jogador.h"
+#include <iomanip>
+#include <string>
 using namespace std;
 
-int main()
-{
-    Aluno aluno1;
-    Aluno *aluno2 = new Aluno();
+int main(){
 
-    aluno1.definirAluno();
-    aluno1.calcularMedia();
-    aluno1.imprimirAluno();
+Jogador joga1;
+    string nome;
+    cout << "digite o nome do jogador: "<< endl;
+    cin>> nome;
+    int golsMarcados;
+    cout << "digite a quant de gols marcados: " << endl;
+    cin >> golsMarcados;
+
+    joga1(nome, golsMarcados);
+
+    cout << joga1.getNome() << endl;
+    cout << joga1.getGols() << endl;
 
 
-    aluno2->definirAluno();
-    aluno2->imprimirAluno();
-
-
-    delete aluno2;
-    return 0;
+return 0;
 }
