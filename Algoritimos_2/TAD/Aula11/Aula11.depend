@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1739209271 source:/home/ice/Downloads/Aula11/main.cpp
+	<iostream>
+	"Aluno.h"
+	"Prova.h"
+
+1739209494 /home/ice/Downloads/Aula11/Aluno.h
+	<iostream>
+	<string>
+
+1699885900 /home/ice/Downloads/Aula11/Prova.h
+	<iostream>
+	<string>
+
+1699885900 source:/home/ice/Downloads/Aula11/Prova.cpp
+	"Prova.h"
+
+1739210374 source:/home/ice/Downloads/Aula11/Aluno.cpp
+	"Aluno.h"
+
