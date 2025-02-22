@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1738889824 source:/home/ice/Documentos/Algoritimos_UFJF/ex01nd/jogador.cpp
+	<string>
+	"Jogador.h"
+	<iostream>
+
+1738889789 /home/ice/Documentos/Algoritimos_UFJF/ex01nd/Jogador.h
+	<string>
+
+1738889820 source:/home/ice/Documentos/Algoritimos_UFJF/ex01nd/main.cpp
+	<iostream>
+	"Jogador.h"
+
