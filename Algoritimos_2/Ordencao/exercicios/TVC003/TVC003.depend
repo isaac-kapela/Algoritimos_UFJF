@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1738630339 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tvc003\jogador.cpp
+	"Jogador.h"
+	<iomanip>
+	<iostream>
+
+1738630600 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\ordencao\exercicios\tvc003\jogador.h
+	<string>
+

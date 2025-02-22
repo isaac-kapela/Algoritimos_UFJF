@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740249366 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matriztriangulares\main.cpp
+	"TADTriangular.h"
+	<iostream>
+
+1740248228 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matriztriangulares\tadtriangular.h
+
+1740249520 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matriztriangulares\triangular.cpp
+	"TADTriangular.h"
+	<iostream>
+

@@ -6,7 +6,7 @@ using namespace std;
 
 Equipe::Equipe()
 {
-    n =0;
+    n = 0;
 }
 Equipe::~Equipe()
 {
