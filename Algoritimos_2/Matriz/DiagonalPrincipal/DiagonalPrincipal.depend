@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1740319506 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\diagonalprincipal\main.cpp
+1740320988 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\diagonalprincipal\main.cpp
 	<iostream>
 	"TadDiagonal.h"
 
 1740319083 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\diagonalprincipal\taddiagonal.h
 
-1740319359 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\diagonalprincipal\diagonal.cpp
+1740323788 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\diagonalprincipal\diagonal.cpp
 	"TadDiagonal.h"
 	<iostream>
 

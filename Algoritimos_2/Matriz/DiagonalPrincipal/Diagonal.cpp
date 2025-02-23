@@ -35,8 +35,8 @@ int TadDiagonal::get(int i, int j)
     }
     if(i==j)
     {
-        int k = n;
-        return vet[k];
+        int k ;
+        return vet[i];
     }
     return 0;
 }
@@ -50,8 +50,8 @@ void TadDiagonal::set(int i, int j, int valor)
     }
     if(i==j)
     {
-        int k = n;
-        vet[k] = valor;
+        int k ;
+        vet[i] = valor;
     }
     else
     {

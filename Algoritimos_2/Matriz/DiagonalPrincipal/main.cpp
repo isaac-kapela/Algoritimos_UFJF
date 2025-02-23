@@ -12,15 +12,10 @@ int main()
     cout << " valor: ";
     cin>> valor;
 
-
-    if(i>= 0 && i < 4 && j>=0 && j < 4){
-        a.set(i,j,valor);
-    }
-    else{
-        cout << " indece fora da diagonal principal" << endl;
-    }
     a.preencheVetor();
+    a.set(i,j,valor);
     a.imprimeVetor();
+
 
     return 0;
 }

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740331883 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\tridiagonal\main.cpp
+	<iostream>
+	"TadTridiagonal.h"
+
+1740324774 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\tridiagonal\tadtridiagonal.h
+
+1740331850 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\tridiagonal\tridiagonal.cpp
+	"TadTridiagonal.h"
+	<iostream>
+
