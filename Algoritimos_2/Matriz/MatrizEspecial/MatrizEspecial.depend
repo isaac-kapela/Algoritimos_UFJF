@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740350909 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matrizespecial\diagoanti.cpp
+	<iostream>
+	"DiagoAnti.h"
+
+1740346157 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matrizespecial\diagoanti.h
+
+1740350941 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\matrizespecial\main.cpp
+	<iostream>
+	"DiagoAnti.h"
+
