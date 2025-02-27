@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740426069 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\triangularsuperior\superior.cpp
+	"Superior.h"
+	<iostream>
+
+1740423371 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\triangularsuperior\superior.h
+
+1740425049 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\triangularsuperior\main.cpp
+	<iostream>
+	"Superior.h"
+

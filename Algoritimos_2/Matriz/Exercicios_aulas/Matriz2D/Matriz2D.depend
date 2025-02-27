@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1740675157 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\matriz2d\main.cpp
+	<iostream>
+	"Matriz2D.h"
+
+1740674431 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\matriz2d\matriz2d.h
+
+1740675336 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\matriz2d\matriz2d.cpp
+	"Matriz2D.h"
+	<iostream>
+
