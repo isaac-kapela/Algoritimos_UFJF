@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1741096477 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\tvc32023\jogador.cpp
+	<iostream>
+	"Jogador.h"
+
+1741105130 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\tvc32023\jogador.h
+	<string>
+
+1741106755 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\tvc32023\equipe.cpp
+	"Equipe.h"
+	<iostream>
+
+1741104475 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\tvc32023\equipe.h
+	"Jogador.h"
+
+1741105503 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\tvc32023\main.cpp
+	<iostream>
+	"Jogador.h"
+	"Equipe.h"
+

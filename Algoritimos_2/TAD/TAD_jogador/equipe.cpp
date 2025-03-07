@@ -19,7 +19,6 @@ Equipe::~Equipe()
 void Equipe::novoJogador(string nome, int gols)
 {
 
-
     jogadores[n] = new Jogador(nome);
     jogadores[n]->setGols(gols);
     n++;

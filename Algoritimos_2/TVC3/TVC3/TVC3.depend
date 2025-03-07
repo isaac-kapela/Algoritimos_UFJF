@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1741101030 source:/tmp/TVC3/Jogador.cpp
+	"Jogador.h"
+	<string>
+
+1741100392 /tmp/TVC3/Jogador.h
+	<string>
+
+1741116095 source:/tmp/TVC3/main.cpp
+	<iostream>
+	"Jogador.h"
+	<string>
+	"MatrizLitra.h"
+
+1741109531 source:/tmp/TVC3/Equipe.cpp
+	<string>
+	"Equipe.h"
+	"Jogador.h"
+
+1741103981 /tmp/TVC3/Equipe.h
+	"Jogador.h"
+
+1741115830 source:/tmp/TVC3/MatrizListra.cpp
+	"MatrizLitra.h"
+	<iostream>
+
+1741115820 /tmp/TVC3/MatrizLitra.h
+
+1741118931 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\equipe.cpp
+	<string>
+	"Equipe.h"
+	"Jogador.h"
+
+1741118931 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\equipe.h
+	"Jogador.h"
+
+1741118931 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\jogador.h
+	<string>
+
+1741118931 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\jogador.cpp
+	"Jogador.h"
+	<string>
+
+1741118931 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\main.cpp
+	<iostream>
+	"Jogador.h"
+	<string>
+	"MatrizLitra.h"
+
+1741118931 c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\matrizlitra.h
+
+1741118931 source:c:\users\dizol\onedrive\햞ea de trabalho\algoritimos_ufjf\algoritimos_2\tvc3\tvc3\matrizlistra.cpp
+	"MatrizLitra.h"
+	<iostream>
+

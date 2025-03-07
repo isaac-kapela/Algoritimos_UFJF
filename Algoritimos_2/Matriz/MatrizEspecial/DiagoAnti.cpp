@@ -3,12 +3,20 @@
 using namespace std;
 
 DiagoAnti::DiagoAnti(int ordem) {
+    if(ordem <2){
+        cout << "ordem invalida" << endl;
+        exit(1);
+    }
+    else{
+
+
     n = ordem;
     int tam = (3 * n) - 2;
     vet = new int[tam];
 
     for (int i = 0; i < tam; i++) {
         vet[i] = 0;
+    }
     }
 }
 
@@ -44,7 +52,12 @@ int DiagoAnti::get(int i, int j) {
     }
 
     if (k == -2) {
-        return 0;
+        if(i==j+1){
+            return -get(j,i);
+        }
+        else{
+            return 0;
+        }
     }
 
     return vet[k];
