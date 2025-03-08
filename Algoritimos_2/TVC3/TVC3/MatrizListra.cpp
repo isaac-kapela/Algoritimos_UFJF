@@ -63,7 +63,7 @@ void MatrizListra::setElemento(int i, int j, int val)
 {
     k = detInd(i,j);
     if(k == -1)
-    {
+    {   
         cout << "Indice Invalido" << endl;
         exit(1);
     }

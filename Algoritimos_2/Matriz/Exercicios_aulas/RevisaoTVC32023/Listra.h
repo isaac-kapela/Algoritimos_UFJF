@@ -6,11 +6,16 @@ class Listra{
 public:
     Listra(int m, int n);
     //int tam = n/2*m;
-    int *vet;
     ~Listra();
+    int get(int i, int j);
+    void set(int i, int j, int val);
     bool ehQuadrada();
+    int detInd(int i, int j);
 
-
+private:
+    int *vet;
+    Listra* criaCopia();
+    int nl, nc;
 
 };
 
