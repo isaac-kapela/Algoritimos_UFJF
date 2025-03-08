@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1741475824 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\portal\main.cpp
+	<iostream>
+	"Portal.h"
+
+1741475590 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\portal\portal.h
+
+1741475786 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\portal\portal.cpp
+	"Portal.h"
+	<iostream>
+

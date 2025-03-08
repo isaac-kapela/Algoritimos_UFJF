@@ -57,7 +57,7 @@ void Listra::set(int i, int k, int val){
     if(k==-1){
         cout << " indice invalido" << endl;
         exit(1);
-    }
+    }   
     else if(k==-2 || val !=0){
         cout << "voc� n�o pode atribuir valores nessa posi��o" << endl;
     }
