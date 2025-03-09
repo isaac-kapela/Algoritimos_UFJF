@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/dizol/OneDrive/Área de Trabalho/Algoritimos_UFJF/Algoritimos_2/Matriz/Exercicios_aulas/Triadiagonal",
+      "program": "c:/Users/dizol/OneDrive/Área de Trabalho/Algoritimos_UFJF/Algoritimos_2/Matriz/Exercicios_aulas/Triadiagonal/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1741528232 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\mat diagonal\diagonal.cpp
+	"Diagonal.h"
+	<iostream>
+
+1741526970 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\mat diagonal\diagonal.h
+
+1741528319 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\mat diagonal\main.cpp
+	<iostream>
+	"Diagonal.h"
+
