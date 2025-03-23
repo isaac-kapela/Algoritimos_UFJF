@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1741531392 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\diagonalsecundaria\diagosecundaria.cpp
+	"DiagoSecundaria.h"
+	<iostream>
+
+1741530837 c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\diagonalsecundaria\diagosecundaria.h
+
+1741531491 source:c:\users\dizol\onedrive\Área de trabalho\algoritimos_ufjf\algoritimos_2\matriz\exercicios_aulas\diagonalsecundaria\main.cpp
+	<iostream>
+	"DiagoSecundaria.h"
+

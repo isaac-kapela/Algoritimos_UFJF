@@ -1,0 +1,6 @@
+#ifndef ENCADEDA_H_INCLUDED
+#define ENCADEDA_H_INCLUDED
+
+
+
+#endif // ENCADEDA_H_INCLUDED
