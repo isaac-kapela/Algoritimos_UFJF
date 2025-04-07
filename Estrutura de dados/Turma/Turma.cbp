@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Ex01" />
+		<Option title="Turma" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Ex01" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Turma" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Ex01" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Turma" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,11 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="ListaCont.cpp" />
-		<Unit filename="ListaCont.h" />
+		<Unit filename="Aluno.cpp" />
+		<Unit filename="Aluno.h" />
+		<Unit filename="NO.cpp" />
+		<Unit filename="NO.h" />
+		<Unit filename="Turma.cpp" />
+		<Unit filename="Turma.h" />
 		<Unit filename="main.cpp" />
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
