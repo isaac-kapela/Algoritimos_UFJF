@@ -1,0 +1,29 @@
+
+// exercicios 2 e 3
+
+// Sim, a subárvore da raiz de uma árvore vermelha-preta é sempre uma árvore vermelha-preta. 
+// Se você pega qualquer subárvore enraizada em um nó arbitrário da árvore vermelha-preta:
+
+// Essa subárvore herda todas as propriedades da vermelha-preta:
+
+// Os nós continuam sendo vermelhos ou pretos 
+
+// As folhas ainda são pretas  
+
+// Não há dois nós vermelhos consecutivos, pois essa propriedade vale globalmente 
+
+// O número de nós pretos ao longo de cada caminho da subárvore até suas folhas ainda será constante 
+
+
+int NoVP::getAlturaNegra()
+{
+    int altEsq = this->esq ? this->esq->getAlturaNegra() : 0;
+    return this->cor == PRETO ? altEsq + 1 : altEsq;
+}
+
+int VP::getAlturaNegra()
+{
+    if (this->raiz == NULL)
+        return 0;
+    return this->raiz->getAlturaNegra();
+}
